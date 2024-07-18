@@ -14,7 +14,7 @@ if (localStorage.getItem('downloadCounts')) {
 function downloadFile(os) {
   let url;
   if (os === 'android') {
-    url = 'https://en.softonic.com/download-launch?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkb3dubG9hZFR5cGUiOiJyaXNlSW5zdGFsbGVyIiwiZG93bmxvYWRVcmwiOiJodHRwczovL2QzbHYyaTc1YzN1amdxLmNsb3VkZnJvbnQubmV0L2N1cnJlbnQvaWQvdjguNDYwLjQ2OS42Ny4wIiwiYXBwSWQiOiJmOTZkZjg3ZC05MjZmLTQ5NTQtYmY1OC1mMzc3YTU3M2E2MzAiLCJwbGF0Zm9ybUlkIjoid2luZG93cyIsImlhdCI6MTcyMDc2NDQ4MSwiZXhwIjoxNzIwNzY4MDgxfQ.tI071twleG7qGGR2dpAFP_dRLCdr_DuwtCc-nas5Sq0';
+    url = 'https://play.google.com/store/apps/details?id=com.linkedin.android&pcampaignid=web_share';
   } else if (os === 'ios') {
     url = 'path_to_ios_application';
   }
