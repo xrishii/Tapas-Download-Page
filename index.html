@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAPAS Mobile Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>TAPAS Mobile Application</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>OS</th>
+                <th>Version</th>
+                <th>Download</th>
+                <th>Number of Downloads</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Android</td>
+                <td>2.02</td>
+                <td><button onclick="downloadFile('android')">Download</button></td>
+                <td id="android-downloads">0</td>
+            </tr>
+            <tr>
+                <td>iOS</td>
+                <td>NA</td>
+                <td>COMING SOON</td>
+                <td id="ios-downloads">0</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
